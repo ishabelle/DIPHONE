@@ -11,7 +11,7 @@ def home_view():
 
 if __name__ == "__main__":
     app.debug = True
-    PORT = process.env.PORT | '3000'
+    PORT = process.env.PORT | '8080'
     app.run()
     app.run(
         host='localhost',
