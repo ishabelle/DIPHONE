@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&display=swap');
+
+.h1-titles {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    /*font-size: 35px;*/
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+}
+
+.h3-titles {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.h4-titles {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+
+.h5-titles {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 3px;
+}
+
+.p-par {
+    font-family: 'Oswald', sans-serif;
+    text-align: justify;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.p-par-contact {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.tel-mail {
+    color: #0b0c10;
+}
+
+.tel-mail:hover {
+    color: #ff0000;
+}
+
+.p-signature {
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 25px;
+}

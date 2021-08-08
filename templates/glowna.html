@@ -1,0 +1,85 @@
+{% extends "pl_layout.html" %}
+
+{% block content %}
+
+<!--<div class="text-center" style="padding-top: 50px">-->
+<!--    <h1 class="h1-titles mb-3">PROFESJONALNY SERWIS URZĄDZEŃ MOBILNYCH</h1>-->
+<!--    <img class="img-fluid animate__animated animate__backInUp" src="/static/images/main_page/phones.png">-->
+<!--</div>-->
+
+<!-- CAROUSEL -->
+<br>
+<h2 class="h1-titles mb-3">PROFESJONALNY SERWIS URZĄDZEŃ MOBILNYCH</h2>
+<div style="max-width: 750px; padding: 10px">
+    <div id="demo" class="carousel slide" data-ride="carousel" data-interval="2300">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <h3 class="h3-titles">Telefony / Smartfony</h3>
+                <img class="img-responsive animate__animated animate__backInLeft"
+                     src="/static/images/main_page/phones.png"
+                     style="width: 100%; height: 100%">
+            </div>
+            <div class="carousel-item">
+                <h3 class="h3-titles">Tablety</h3>
+                <img class="img-responsive animate__animated animate__backInLeft"
+                     src="/static/images/main_page/tablets.png"
+                     style="width: 100%; height: 100%">
+            </div>
+            <div class="carousel-item">
+                <h3 class="h3-titles">Laptopy / Notebooki</h3>
+                <img class="img-responsive animate__animated animate__backInLeft"
+                     src="/static/images/main_page/laptops.png"
+                     style="width: 100%; height: 100%">
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+    <br>
+    <h1 class="h1-titles"><br></h1>
+    <br>
+
+</footer>
+
+<!-- LOGOS -->
+<div>
+    <img class="animate__animated animate__zoomIn" src="/static/images/main_page/logo/huawei.png"
+         style="height: 50px; padding: 5px; animation-delay: 100ms">
+    <img class="animate__animated animate__zoomIn" src="/static/images/main_page/logo/samsung.png"
+         style="height: 50px; padding: 5px; animation-delay: 500ms">
+    <img class="animate__animated animate__zoomIn" src="/static/images/main_page/logo/apple.png"
+         style="height: 50px; padding: 5px; animation-delay: 1000ms">
+    <img class="animate__animated animate__zoomIn" src="/static/images/main_page/logo/xiaomi.png"
+         style="height: 50px; padding: 5px; animation-delay: 1500ms">
+    <img class="animate__animated animate__zoomIn" src="/static/images/main_page/logo/sony.png"
+         style="height: 50px; padding: 5px; animation-delay: 2000ms">
+    <img class="animate__animated animate__zoomIn" src="/static/images/main_page/logo/lg.png"
+         style="height: 50px; padding: 5px; animation-delay: 2500ms">
+    <img class="animate__animated animate__zoomIn" src="/static/images/main_page/logo/lenovo.png"
+         style="height: 50px; padding: 5px; animation-delay: 3000ms">
+    <img class="animate__animated animate__zoomIn" src="/static/images/main_page/logo/hp.png"
+         style="height: 50px; padding: 5px; animation-delay: 3500ms">
+
+</div>
+<br>
+
+{% endblock %}
