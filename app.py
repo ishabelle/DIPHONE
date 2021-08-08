@@ -24,6 +24,11 @@ def contact_us_pl():
     return render_template("kontakt.html")
 
 
+@app.route("/dla_firm")
+def for_company():
+    return render_template("dla_firm.html")
+
+
 # na heroku:
 # if __name__ == "__main__":
 #     app.debug = True
