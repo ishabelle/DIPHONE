@@ -1,0 +1,129 @@
+{% extends "pl_layout.html" %}
+
+{% block content %}
+<h1 class="h1-titles mb-3">KONTAKT</h1>
+
+
+<!-- CONTACT DATA -->
+<div class="container-fluid text-center">
+    <div class="row">
+        <!-- EMPTY COL -->
+        <div class="col-md-2"></div>
+
+        <!-- FIRST COL -->
+        <div class="col-md-2">
+
+            <!-- COMPANY NAME -->
+            <div>
+                <img class="animate__animated animate__zoomInLeft" style="animation-delay: 100ms"
+                     src="/static/images/contact_us/company.png">
+                <p class="p-par-contact"><strong>DiPHONE</strong><br>Dawid Orzepowski</p>
+            </div>
+
+            <!-- EMAIL -->
+            <div>
+                <img class="animate__animated animate__zoomInLeft" style="animation-delay: 500ms"
+                     src="/static/images/contact_us/mail.png">
+                <p class="p-par-contact"><strong>EMAIL</strong><br>
+                    <a href="mailto:4phonelegionowo@gmail.com" class="tel-mail">4phonelegionowo@gmail.com</a>
+                </p>
+            </div>
+        </div>
+
+        <!-- SECOND COL / OPENING HOURS -->
+        <div class="col-md-4">
+            <img class="animate__animated animate__zoomInDown" style="animation-delay: 1000ms"
+                 src="/static/images/contact_us/stopwatch.png">
+            <p class="p-par-contact"><strong>GODZINY OTWARCIA SERWISU</strong><br>Poniedziałek - Piątek <br>10:00 -
+                18:00</p>
+
+            <!-- WEEKEND BUTTON -->
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                WEEKEND
+            </button>
+            <br>
+
+            <!-- FB -->
+            <div>
+                <br>
+                <img class="animate__animated animate__zoomInUp" style="animation-delay: 2500ms"
+                     src="/static/images/contact_us/facebook.png">
+                <br>
+                <p class="p-par-contact"><a href="https://www.facebook.com/4PhoneLegionowo" target="_blank"
+                                            class="tel-mail"><strong>ODWIEDŹ NAS NA FACEBOOK'u</strong></a></p>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                 aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="h5-titles" id="exampleModalLabel">W NIEDZIELĘ JESTEŚMY NA <strong>BAZARZE
+                                OLIMPIA</strong> !</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9772.89394980489!2d20.9552414!3d52.2393242!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe990b4a05b0727f1!2sBazar%20Olimpia!5e0!3m2!1spl!2spl!4v1624179240162!5m2!1spl!2spl"
+                                    style="border:0; height: 100%; width: 100%" allowfullscreen=""
+                                    loading="lazy"></iframe>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">ZAMKNIJ</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- THIRD COL -->
+        <div class="col-md-2">
+
+            <!-- ADRESS -->
+            <div>
+                <img class="animate__animated animate__zoomInRight" style="animation-delay: 1500ms"
+                     src="/static/images/contact_us/real-estate.png">
+                <p class="p-par-contact"><strong>ADRES FIRMY</strong><br>
+                    ul. Hetmańska 59, 05-120 Legionowo
+                </p>
+            </div>
+
+            <!-- PHONE -->
+            <div>
+                <img class="animate__animated animate__zoomInRight" style="animation-delay: 2000ms"
+                     src="/static/images/contact_us/phone-call.png">
+                <p class="p-par-contact"><strong>TELEFON</strong><br>
+                    <a href="tel://+48 698 696 900" class="tel-mail">+48 698 696 900</a></p>
+            </div>
+
+
+        </div>
+
+        <!-- EMPTY COL -->
+        <div class="col-md-2"></div>
+
+        <!-- MAPA -->
+        <div class="col-md-3"></div>
+        <div>
+            <br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2434.461026048591!2d20.909482215946824!3d52.39832025299186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471eb9d1f85a0137%3A0xcce3680f11c58814!2s4Phone%20Serwis%20Smartfon%C3%B3w%2C%20Tablet%C3%B3w%20i%20laptop%C3%B3w!5e0!3m2!1spl!2spl!4v1623404136003!5m2!1spl!2spl"
+                    width="100%" height="220px" frameborder="0" scrolling="no"
+                    marginheight="0" marginwidth="0"></iframe>
+        </div>
+    </div>
+</div>
+
+
+<!-- FOOTER -->
+<footer>
+    <br>
+    <h1 class="h1-titles"><br></h1>
+    <br>
+    <br>
+</footer>
+
+{% endblock %}

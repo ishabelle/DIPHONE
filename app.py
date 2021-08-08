@@ -14,6 +14,16 @@ def main_page_pl():
     return render_template("glowna.html")
 
 
+@app.route("/o_nas")
+def about_us_pl():
+    return render_template("o_nas.html")
+
+
+@app.route("/kontakt")
+def contact_us_pl():
+    return render_template("kontakt.html")
+
+
 # na heroku:
 # if __name__ == "__main__":
 #     app.debug = True
