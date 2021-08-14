@@ -39,6 +39,36 @@ def price_list_another():
     return render_template("cennik-pozostale.html")
 
 
+@app.route("/cennik-huawei")
+def price_list_huawei():
+    return render_template("cennik-huawei.html")
+
+
+@app.route("/cennik-samsung")
+def price_list_samsung():
+    return render_template("cennik-samsung.html")
+
+
+@app.route("/cennik-iphone")
+def price_list_iphone():
+    return render_template("cennik-iphone.html")
+
+
+@app.route("/cennik-xiaomi")
+def price_list_xiaomi():
+    return render_template("cennik-xiaomi.html")
+
+
+@app.route("/cennik-sony")
+def price_list_sony():
+    return render_template("cennik-sony.html")
+
+
+@app.route("/cennik-lg")
+def price_list_lg():
+    return render_template("cennik-lg.html")
+
+
 # na heroku:
 # if __name__ == "__main__":
 #     app.debug = True
