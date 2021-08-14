@@ -29,6 +29,16 @@ def for_company():
     return render_template("dla_firm.html")
 
 
+@app.route("/cennik")
+def price_list():
+    return render_template("cennik.html")
+
+
+@app.route("/cennik-pozostale")
+def price_list_another():
+    return render_template("cennik-pozostale.html")
+
+
 # na heroku:
 # if __name__ == "__main__":
 #     app.debug = True
