@@ -69,6 +69,10 @@ def price_list_lg():
     return render_template("cennik-lg.html")
 
 
+@app.route("/h-seria-mate")
+def price_list_huawei_mate():
+    return render_template("cennik-huawei-mate.html")
+
 # na heroku:
 # if __name__ == "__main__":
 #     app.debug = True
