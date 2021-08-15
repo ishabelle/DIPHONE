@@ -79,6 +79,26 @@ def price_list_huawei_p():
     return render_template("cennik-huawei-p.html")
 
 
+@app.route("/h-seria-nova")
+def price_list_huawei_nova():
+    return render_template("cennik-huawei-nova.html")
+
+
+@app.route("/h-seria-g")
+def price_list_huawei_g():
+    return render_template("cennik-huawei-g.html")
+
+
+@app.route("/h-seria-y")
+def price_list_huawei_y():
+    return render_template("cennik-huawei-y.html")
+
+
+@app.route("/h-seria-honor")
+def price_list_huawei_honor():
+    return render_template("cennik-huawei-honor.html")
+
+
 # na heroku:
 # if __name__ == "__main__":
 #     app.debug = True
