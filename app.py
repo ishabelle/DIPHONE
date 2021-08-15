@@ -84,11 +84,6 @@ def price_list_huawei_nova():
     return render_template("cennik-huawei-nova.html")
 
 
-@app.route("/h-seria-g")
-def price_list_huawei_g():
-    return render_template("cennik-huawei-g.html")
-
-
 @app.route("/h-seria-y")
 def price_list_huawei_y():
     return render_template("cennik-huawei-y.html")
