@@ -99,6 +99,11 @@ def price_list_samsung_a():
     return render_template("cennik-samsung-a.html")
 
 
+@app.route("/s-seria-j")
+def price_list_samsung_j():
+    return render_template("cennik-samsung-j.html")
+
+
 @app.route("/s-seria-m")
 def price_list_samsung_m():
     return render_template("cennik-samsung-m.html")
