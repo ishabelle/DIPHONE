@@ -29,6 +29,11 @@ def for_company():
     return render_template("dla_firm.html")
 
 
+@app.route("/sprzedaz")
+def sales():
+    return render_template("sprzedaz.html")
+
+
 @app.route("/cennik")
 def price_list():
     return render_template("cennik.html")
