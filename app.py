@@ -34,6 +34,11 @@ def sales():
     return render_template("sprzedaz.html")
 
 
+@app.route("/skup")
+def purchase():
+    return render_template("skup.html")
+
+
 @app.route("/cennik")
 def price_list():
     return render_template("cennik.html")
