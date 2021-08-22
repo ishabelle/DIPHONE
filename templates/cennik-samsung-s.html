@@ -1,10 +1,498 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends "pl_layout.html" %}
 
-</body>
-</html>
+{% block content %}
+<h1 class="h1-titles mb-3"><img src="/static/images/main_page/logo/samsung.png" style="height: 50px"> SERIA GALAXY S
+    <img
+            src="/static/images/main_page/logo/samsung.png" style="height: 50px"></h1>
+
+<br>
+
+<div class="container">
+    <div class="row">
+
+        <!-- WYMIANA SZYBY -->
+        <div class="col-sm-2">
+
+            <img type="button" src="static/images/price_list/broken-cracked-phone-screen.png" style="height: 50%"
+                 data-toggle="modal"
+                 data-target="#wymianaSzyby">
+            <hr>
+            <h5 class="h5-titles-shadow">WYMIANA SZYBY</h5>
+
+            <!--  MODAL -->
+            <div class="modal fade" id="wymianaSzyby" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1"
+                 aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel1"><img
+                                    src="static/images/price_list/broken-cracked-phone-screen.png" style="height: 20px">
+                                SERIA
+                                GALAXY S - WYMIANA SZYBY</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <table class="table table-sm table-hover">
+                                <thead>
+                                <tr>
+                                    <th>MODEL</th>
+                                    <th></th>
+                                    <th style="text-align: center">ORYGINAŁ</th>
+                                    <th style="text-align: center">ZAMIENNIK</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>Galaxy S21 Ultra 5G</td>
+                                    <td></td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td>Galaxy S21+ 5G</td>
+                                    <td></td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td>Galaxy S21 5G</td>
+                                    <td></td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td>Galaxy S20 FE 5G</td>
+                                    <td></td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td>Galaxy S20  FE</td>
+                                    <td></td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                            </table>
+                            <tr>Zastrzegamy prawo do zmiany cen usług i towarów znajdujących się w cenniku.
+                                Zawsze potwierdzaj z nami cenę oraz dostępność towaru.
+                            </tr>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-sm btn-dark" data-dismiss="modal">ZAMKNIJ</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- WYMIANA WYŚWIETLACZA -->
+        <div class="col-sm-2">
+
+            <img type="button" src="static/images/price_list/broken-smartphone.png" style="height: 50%"
+                 data-toggle="modal"
+                 data-target="#wymianaWyswietlacza">
+            <hr>
+            <h5 class="h5-titles-shadow">WYMIANA WYŚWIETLACZA</h5>
+
+            <!--  MODAL -->
+            <div class="modal fade" id="wymianaWyswietlacza" tabindex="-1" role="dialog"
+                 aria-labelledby="exampleModalLabel2"
+                 aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel2"><img
+                                    src="static/images/price_list/broken-smartphone.png" style="height: 20px"> SERIA
+                                S - WYMIANA WYŚWIETLACZA</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <table class="table table-sm table-hover">
+                                <thead>
+                                <tr>
+                                    <th>MODEL</th>
+                                    <th></th>
+                                    <th style="text-align: center">ORYGINAŁ</th>
+                                    <th style="text-align: center">ZAMIENNIK</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>Galaxy S21 Ultra 5G</td>
+                                    <td></td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td>Galaxy S21+ 5G</td>
+                                    <td></td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td>Galaxy S21 5G</td>
+                                    <td></td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td>Galaxy S20 FE 5G</td>
+                                    <td></td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td>Galaxy S20  FE</td>
+                                    <td></td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                            </table>
+                            <tr>Zastrzegamy prawo do zmiany cen usług i towarów znajdujących się w cenniku.
+                                Zawsze potwierdzaj z nami cenę oraz dostępność towaru.
+                            </tr>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-sm btn-dark" data-dismiss="modal">ZAMKNIJ</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- WYMIANA TYLNEJ KLAPKI -->
+        <div class="col-sm-2">
+
+            <img type="button" src="static/images/price_list/broken-back-smartphone.png" style="height: 50%"
+                 data-toggle="modal"
+                 data-target="#wymianaTylnejKlapki">
+            <hr>
+            <h5 class="h5-titles-shadow">WYMIANA TYLNEJ KLAPKI</h5>
+
+            <!--  MODAL -->
+            <div class="modal fade" id="wymianaTylnejKlapki" tabindex="-1" role="dialog"
+                 aria-labelledby="exampleModalLabel3"
+                 aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel3"><img
+                                    src="static/images/price_list/broken-back-smartphone.png" style="height: 20px">
+                                SERIA
+                                S - WYMIANA TYLNEJ KLAPKI</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <table class="table table-sm table-hover">
+                                <thead>
+                                <tr>
+                                    <th>MODEL</th>
+                                    <th></th>
+                                    <th style="text-align: center">ORYGINAŁ</th>
+                                    <th style="text-align: center">ZAMIENNIK</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>Galaxy S21 Ultra 5G</td>
+                                    <td></td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td>Galaxy S21+ 5G</td>
+                                    <td></td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td>Galaxy S21 5G</td>
+                                    <td></td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td>Galaxy S20 FE 5G</td>
+                                    <td></td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td>Galaxy S20  FE</td>
+                                    <td></td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                            </table>
+                            <tr>Zastrzegamy prawo do zmiany cen usług i towarów znajdujących się w cenniku.
+                                Zawsze potwierdzaj z nami cenę oraz dostępność towaru.
+                            </tr>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-sm btn-dark" data-dismiss="modal">ZAMKNIJ</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- WYMIANA BATERII -->
+        <div class="col-sm-2">
+
+            <img type="button" src="static/images/price_list/battery-smartphone.png" style="height: 50%"
+                 data-toggle="modal"
+                 data-target="#wymianaBaterii">
+            <hr>
+            <h5 class="h5-titles-shadow">WYMIANA BATERII</h5>
+
+            <!--  MODAL -->
+            <div class="modal fade" id="wymianaBaterii" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel4"
+                 aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel4"><img
+                                    src="static/images/price_list/battery-smartphone.png" style="height: 20px"> SERIA
+                                S - WYMIANA BATERII</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <table class="table table-sm table-hover">
+                                <thead>
+                                <tr>
+                                    <th>MODEL</th>
+                                    <th></th>
+                                    <th style="text-align: center">ORYGINAŁ</th>
+                                    <th style="text-align: center">ZAMIENNIK</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>Galaxy S21 Ultra 5G</td>
+                                    <td></td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td>Galaxy S21+ 5G</td>
+                                    <td></td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td>Galaxy S21 5G</td>
+                                    <td></td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td>Galaxy S20 FE 5G</td>
+                                    <td></td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td>Galaxy S20  FE</td>
+                                    <td></td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                            </table>
+                            <tr>Zastrzegamy prawo do zmiany cen usług i towarów znajdujących się w cenniku.
+                                Zawsze potwierdzaj z nami cenę oraz dostępność towaru.
+                            </tr>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-sm btn-dark" data-dismiss="modal">ZAMKNIJ</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- WYMIANA PORTU ŁADOWANIA -->
+        <div class="col-sm-2">
+
+            <img type="button" src="static/images/price_list/battery-port-smartphone.png" style="height: 50%"
+                 data-toggle="modal"
+                 data-target="#wymianaPortuLadowania">
+            <hr>
+            <h5 class="h5-titles-shadow">WYMIANA PORTU ŁADOWANIA</h5>
+
+            <!--  MODAL -->
+            <div class="modal fade" id="wymianaPortuLadowania" tabindex="-1" role="dialog"
+                 aria-labelledby="exampleModalLabel5"
+                 aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel5"><img
+                                    src="static/images/price_list/battery-port-smartphone.png" style="height: 20px">
+                                SERIA
+                                S - WYMIANA PORTU ŁADOWANIA</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <table class="table table-sm table-hover">
+                                <thead>
+                                <tr>
+                                    <th>MODEL</th>
+                                    <th></th>
+                                    <th style="text-align: center">ORYGINAŁ</th>
+                                    <th style="text-align: center">ZAMIENNIK</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>Galaxy S21 Ultra 5G</td>
+                                    <td></td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td>Galaxy S21+ 5G</td>
+                                    <td></td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td>Galaxy S21 5G</td>
+                                    <td></td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td>Galaxy S20 FE 5G</td>
+                                    <td></td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td>Galaxy S20  FE</td>
+                                    <td></td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                            </table>
+                            <tr>Zastrzegamy prawo do zmiany cen usług i towarów znajdujących się w cenniku.
+                                Zawsze potwierdzaj z nami cenę oraz dostępność towaru.
+                            </tr>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-sm btn-dark" data-dismiss="modal">ZAMKNIJ</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- WYMIANA GŁOŚNIKA -->
+        <div class="col-sm-2">
+
+            <img type="button" src="static/images/price_list/speaker-smartphone.png" style="height: 50%"
+                 data-toggle="modal"
+                 data-target="#wymianaGlosnika">
+            <hr>
+            <h5 class="h5-titles-shadow">WYMIANA GŁOŚNIKA</h5>
+
+            <!--  MODAL -->
+            <div class="modal fade" id="wymianaGlosnika" tabindex="-1" role="dialog"
+                 aria-labelledby="exampleModalLabel6"
+                 aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel6"><img
+                                    src="static/images/price_list/speaker-smartphone.png" style="height: 20px"> SERIA
+                                S - WYMIANA GŁOŚNIKA</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <table class="table table-sm table-hover">
+                                <thead>
+                                <tr>
+                                    <th>MODEL</th>
+                                    <th></th>
+                                    <th style="text-align: center">ORYGINAŁ</th>
+                                    <th style="text-align: center">ZAMIENNIK</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>Galaxy S21 Ultra 5G</td>
+                                    <td></td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td>Galaxy S21+ 5G</td>
+                                    <td></td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td>Galaxy S21 5G</td>
+                                    <td></td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td>Galaxy S20 FE 5G</td>
+                                    <td></td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                                <tr>
+                                    <td>Galaxy S20  FE</td>
+                                    <td></td>
+                                    <td style="text-align: center">X</td>
+                                    <td style="text-align: center">X</td>
+                                </tr>
+                            </table>
+                            <tr>Zastrzegamy prawo do zmiany cen usług i towarów znajdujących się w cenniku.
+                                Zawsze potwierdzaj z nami cenę oraz dostępność towaru.
+                            </tr>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-sm btn-dark" data-dismiss="modal">ZAMKNIJ</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <h5><a class="btn btn-outline-dark btn-lg animate__heartBeat" style="animation-delay: 3s" href="/cennik-samsung">WSZYSTKIE
+        SERIE</a></h5>
+
+</div>
+
+
+<!-- FOOTER -->
+<footer>
+    <br>
+    <h1 class="h1-titles"><br></h1>
+    <br>
+    <br>
+</footer>
+
+{% endblock %}
