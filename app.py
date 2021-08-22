@@ -94,6 +94,31 @@ def price_list_huawei_honor():
     return render_template("cennik-huawei-honor.html")
 
 
+@app.route("/s-seria-a")
+def price_list_samsung_a():
+    return render_template("cennik-samsung-a.html")
+
+
+@app.route("/s-seria-m")
+def price_list_samsung_m():
+    return render_template("cennik-samsung-m.html")
+
+
+@app.route("/s-seria-s")
+def price_list_samsung_s():
+    return render_template("cennik-samsung-s.html")
+
+
+@app.route("/s-seria-z")
+def price_list_samsung_z():
+    return render_template("cennik-samsung-z.html")
+
+
+@app.route("/s-seria-note")
+def price_list_samsung_note():
+    return render_template("cennik-samsung-note.html")
+
+
 # na heroku:
 # if __name__ == "__main__":
 #     app.debug = True
