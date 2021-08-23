@@ -70,6 +70,23 @@
     padding: 10px;
 }
 
+.p-par-service {
+    font-family: 'Oswald', sans-serif;
+    text-align: justify;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.p-par-service:hover {
+    font-family: 'Oswald', sans-serif;
+    text-align: justify;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(153, 255, 0) 2px 2px 2px;
+    padding: 10px;
+}
+
 .p-par-contact {
     font-family: 'Oswald', sans-serif;
     text-align: center;
