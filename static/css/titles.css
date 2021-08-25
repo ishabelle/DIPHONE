@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
 .h1-titles {
     font-family: 'Oswald', sans-serif;
@@ -104,6 +105,6 @@
 }
 
 .p-signature {
-    font-family: 'Dawning of a New Day', cursive;
+    font-family: 'Shadows Into Light', cursive;
     font-size: 25px;
 }
