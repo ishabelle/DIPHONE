@@ -44,6 +44,21 @@ def service():
     return render_template("serwis.html")
 
 
+@app.route("/polityka_prywatnosci")
+def politics():
+    return render_template("polityka_prywatnosci.html")
+
+
+@app.route("/cookies")
+def cookies():
+    return render_template("cookies.html")
+
+
+@app.route("/regulamin")
+def statute():
+    return render_template("regulamin.html")
+
+
 @app.route("/cennik")
 def price_list():
     return render_template("cennik.html")
