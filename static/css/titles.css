@@ -63,6 +63,32 @@
     text-shadow: rgb(153, 255, 0) 2px 2px 2px;
 }
 
+.h6-titles {
+    font-size: 12px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 3px;
+}
+
+.h6-titles-shadow {
+    font-size: 12px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 3px;
+    text-shadow: rgb(153, 255, 0) 2px 2px 2px;
+}
+
+.a-links {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    text-shadow: rgb(153, 255, 0) 2px 2px 2px;
+}
+
 .p-par {
     font-family: 'Oswald', sans-serif;
     text-align: justify;
