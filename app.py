@@ -1,7 +1,9 @@
 from flask import Flask, render_template
-import os
+from flask_sslify import SSLify
+
 
 app = Flask(__name__)
+sslify = SSLify(app)
 
 
 @app.route("/")
@@ -177,4 +179,3 @@ if __name__ == "__main__":
         port=5000,
         debug=True
     )
-    app.run(ssl_context='adhoc')
