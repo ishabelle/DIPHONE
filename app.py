@@ -1,7 +1,19 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, redirect, request
 
 
 app = Flask(__name__)
+
+
+@app.before_request
+def before_request():
+    if app.env == "master":
+        return
+    if request.is_secure:
+        return
+
+    url = request.url.replace("http://", "https://", 1)
+    code = 301
+    return redirect(url, code=code)
 
 
 @app.route("/")
