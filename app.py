@@ -166,7 +166,7 @@ def price_list_samsung_note():
     return render_template("cennik-samsung-note.html")
 
 
-@app.route("/do_pobrania")
+@app.route("/do-pobrania")
 def to_download():
     return render_template("do-pobrania.html")
 
