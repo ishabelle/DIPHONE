@@ -166,6 +166,11 @@ def price_list_samsung_note():
     return render_template("cennik-samsung-note.html")
 
 
+@app.route("/do_pobrania")
+def to_download():
+    return render_template("do-pobrania.html")
+
+
 # na heroku:
 # if __name__ == "__main__":
 #     app.debug = True
