@@ -26,6 +26,11 @@ def main_page_pl():
     return render_template("glowna.html")
 
 
+@app.route("/aktualnosci")
+def news():
+    return render_template("aktualnosci.html")
+
+
 @app.route("/o_nas")
 def about_us_pl():
     return render_template("o_nas.html")
